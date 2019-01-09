@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document f*/
+
+/*Add a fade in animation*/
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes example{
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+
+div.ani{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+}
+
+/*apply to all (reset)*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #222;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 62.5%;
+}
+h1 {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: bold;
+	margin-top: 1rem
+}
+
+p{
+	margin: 1.8rem;
+	font-size: 1.2rem;
+
+}
+
+/*set both tags centre*/
+
+h1, p{
+	text-align:center;
+}
+
+
+/*make our blocks square using vw fro both width and height*/
+.cover {
+    width: 25vw;
+    height: 25vw;
+    display: inline-block;
+    background-size: cover;
+	transition: 0.5s;
+	
+	    
+}
+
+/*class added if audio playing from JQ*/
+
+.cover.playing {
+    outline: 8px solid #e45343;
+	outline-offset: -8px;
+}
+
+/*SHOW AN OVERLAY IN THE BOX BUT HIDDEN*/
+.hover_name{
+    position: relative;
+    z-index: 999;
+    width: 25vw;
+    height: 25vw;
+    background-color: rgba(0,0,0,.5);
+	display: none;
+	 -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+    animation: 1s ease 0s normal forwards 1 fadein;
+}
+
+.hover_name h3{
+	    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 20px;
+	transition: 0.5s;
+	font-size: 2rem;
+}
+
+/*over the cover image*/
+.cover:hover {
+    cursor: pointer;
+	 outline: 8px solid #fff;
+	outline-offset: -8px;
+}
+
+
+
+/*SHOW TEXT WHEN COVER IS ON HOVER*/
+.cover:hover .hover_name{
+	display: block;
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+}
+
+.nav{
+	width: 100%;
+	height: 60px;
+	background: #FF5252;
+	color: #fff;
+	position: relative;
+	margin-bottom: -60px;
+	z-index: 3;
+}
+
+.sticky{
+	position: fixed;
+	top: 0;
+}
+/*Add Drop down css for songs from js array*/
+
+nav {
+ margin: 50px;
+	width: 100%;
+}
+
+nav ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+ position: relative;
+}
+	
+nav ul li {
+ display:inline-block;
+ background-color: #E64A19;
+ }
+
+nav a {
+ display:block;
+ padding:0 10px;	
+ color:#FFF;
+ font-size:1rem;
+ line-height: 60px;
+ text-decoration:none;
+}
+
+nav a:hover { 
+ background-color: #000000; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+ display: none;
+ position: absolute; 
+ top: 60px; /* the height of the main nav */
+    height: 80vh;
+    overflow: scroll;
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+ display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+ float:none;
+ display:list-item;
+ position: relative;
+}
+
+	
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+
+/*STICKY CLASS WILL BE ADDED BY JQ IF WE SCROLL OVER A CERTAIN HEIGHT*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+	z-index: 9999;
+}
+
+/*MEDIA QUERIES TO CHNAGE COLLUMNS OF IMAGES*/
+
+@media only screen and (max-width: 780px) {
+
+	
+	.cover {
+    width: 33.3vw;
+    height: 33.3vw;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.cover {
+    width: 50vw;
+    height: 50vw;
+	}
+}

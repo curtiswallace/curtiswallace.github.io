@@ -1,0 +1,10 @@
+Item:				Source:
+AM.jpg				https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiAiZmo5eDfAhUxXRUIHedgBKkQjxx6BAgBEAI&url=https%3A%2F%2Fprettymuchamazing.com%2Freviews%2Farctic-monkeys-am&psig=AOvVaw3F3lsfE1mUvnIPpoUTdinu&ust=1547126454442153
+AMBackground.mp4		https://www.youtube.com/user/ArcticMonkeys
+FWN.jpg				https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwigv_Xq5eDfAhXTqHEKHfcXCOUQjxx6BAgBEAI&url=https%3A%2F%2Fwww.fatbeats.com%2Fproducts%2Farctic-monkeys-favourite-worst-nightmare-lp&psig=AOvVaw0kjINsZICfgyyDqfgWuFMe&ust=1547126575908227
+Hex.png				https://www.arcticmonkeys.com
+Mil.png				https://www.arcticmonkeys.com
+TBHC.jpg			https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjW7POL5uDfAhWFQxUIHWfTDIgQjxx6BAgBEAI&url=https%3A%2F%2Fwww.loudandquiet.com%2Freviews%2Farctic-monkeys-tranquility-base-hotel-casino%2F&psig=AOvVaw24EzokVR-zyKZXgQzbL_Vd&ust=1547126663219563
+TBHCBackground.jpg		https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwii5PCl5-DfAhWtURUIHdffBywQjxx6BAgBEAI&url=https%3A%2F%2Fimgur.com%2Fgallery%2FFZKZaWL&psig=AOvVaw3waWU79ln1Nrii8TD0J8XF&ust=1547126980147615
+thbcbackground.jpg		https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjhxKq95-DfAhXZUBUIHRRfAjMQjxx6BAgBEAI&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Farcticmonkeys%2Fcomments%2F9qvuf1%2Fmade_a_simple_tbhc_wallpaper_1920x1080%2F&psig=AOvVaw1NXUDr0uY3aRvKt7xJYfhz&ust=1547127021546857
+searchlogo.png			https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiC9_Xb5-DfAhXkSxUIHcx4AfYQjxx6BAgBEAI&url=https%3A%2F%2Fpngimage.net%2Fsearch-logo-png-7%2F&psig=AOvVaw3T5Lr3cKj64qmYM8W2EtOa&ust=1547127099263945
